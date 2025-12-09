@@ -9,8 +9,7 @@ class Accountpage extends StatefulWidget {
 
 class _AccountpageState extends State<Accountpage> {
   TextEditingController nameController = TextEditingController();
-  String username = ""; // الاسم الذي سيظهر فوق
-
+  String username = "";
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -20,7 +19,7 @@ class _AccountpageState extends State<Accountpage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
 
-            // النص الذي يظهر فوق
+
             Text(
               username.isEmpty ? "لم يتم إدخال اسم" : username,
               style: const TextStyle(

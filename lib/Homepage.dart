@@ -13,7 +13,7 @@ class Homepage extends StatelessWidget {
         child:SingleChildScrollView(
         child:
           Column(
-            mainAxisSize: MainAxisSize.min, // عشان العناصر تكون في النص بالضبط
+            mainAxisSize: MainAxisSize.min,
             children: [
 
               const Text(
@@ -43,7 +43,7 @@ class Homepage extends StatelessWidget {
               SizedBox(
                 width: 230,
                 child: ElevatedButton.icon(
-                  icon: const Icon(Icons.yard), // أيقونة مناسبة للأعلاف
+                  icon: const Icon(Icons.yard),
                   label: const Text(
                     'قسم الأعلاف',
                     style: TextStyle(fontSize: 16),

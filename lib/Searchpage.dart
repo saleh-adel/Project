@@ -6,10 +6,7 @@ class Searchpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     // appBar: AppBar(
-       // title: const Text("قائمة الأعلاف"),
-        //backgroundColor: Color(0xFFf5a926),
-     // ),
+
 
       body: ListView(
         children: const [
